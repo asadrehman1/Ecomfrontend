@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.custom-dropdown .nav-link.dropdown-toggle {
+  color: #FFFFFF; 
+}
+.navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #FFFFFF;
+}
+/* .react-slick > div{
+  margin: 100px 50px;
+} */
+
+.swiper-slide{
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+  filter: blur(4px);
+  background:#E3F8F5;
+}
+.swiper-slide-active{
+  filter: blur(0px);
+  background:#F5F6F8;
+}
